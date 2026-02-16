@@ -1,6 +1,7 @@
 import requests
 
-url="https://rickandmortyapi.com/api/character"
+url="https://rickandmortyapi.com/api/character" 
+#https://rickandmortyapi.com/api/character/?name=rick&status=alive to get data where name include rick and he is alive
 
 response=requests.get(url)
 if response.status_code==200:
