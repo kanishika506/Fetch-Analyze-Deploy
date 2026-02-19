@@ -24,4 +24,4 @@ data={
 
 print(f"second reading temperatue  in london:{data['stations'][0]['readings'][1]['temp']}\n")
 #get humidity of paris
-print(f"humidity in paris:{data['stations'][1]['readings'][0]['humidity']}")
+print(f"humidity of paris:{data['stations'][1]['readings'][0]['humidity']}\n")
